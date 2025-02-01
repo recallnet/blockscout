@@ -6,7 +6,7 @@ Runs Blockscout in Docker containers with [docker-compose](https://github.com/do
 
 - Docker v20.10+
 - Docker-compose 2.x.x+
-- A Running Hoku network
+- A Running Recall network
 
 ## Running the block explorer
 
@@ -24,7 +24,7 @@ Stopping
 
 Currently `<NETWORK NAME>` can be one of `localnet` or `testnet`.
 
-You can also reset all existing state in the explorer.  This is useful if you are restarting the Hoku network from scratch, i.e. a new localnet or a testnet reset.
+You can also reset all existing state in the explorer.  This is useful if you are restarting the Recall network from scratch, i.e. a new localnet or a testnet reset.
 ```bash
 ./reset.sh
 ```
