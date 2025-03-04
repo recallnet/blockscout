@@ -40,7 +40,7 @@ Starting an explorer runs 10 Docker containers (plus [`caddy`](https://hub.docke
 - Redis database of the latest version.
 - Blockscout backend with api at /api path.
 - Nginx proxy to bind backend, frontend and microservices.
-- Blockscout explorer at http://localhost:5000.
+- Blockscout explorer at http://localhost:5050.
 
 and 5 containers for microservices:
 
