@@ -1,5 +1,5 @@
 explorer.testnet.recall.network {
-  reverse_proxy block-explorer-proxy:5000
+  reverse_proxy block-explorer-proxy:5050
   tls infra@3box.io
 }
 stats.explorer.testnet.recall.network {
