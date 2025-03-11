@@ -9,6 +9,7 @@ services:
     environment:
       BACK_PROXY_PASS: http://block-explorer-backend:4000
       FRONT_PROXY_PASS: http://block-explorer-frontend:3000
+      STATS_CORS_ORIGIN_URL: ${STATS_CORS_ORIGIN_URL}
     ports:
       - target: 5050
         published: 5050
