@@ -3,7 +3,7 @@ explorer.testnet.recall.network {
   tls infra@3box.io
 }
 stats.explorer.testnet.recall.network {
-  reverse_proxy block-explorer-stats:8080
+  reverse_proxy block-explorer-proxy:8080
   tls infra@3box.io
 }
 visualize.explorer.testnet.recall.network {
