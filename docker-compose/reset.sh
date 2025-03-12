@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -ex
+
 docker compose down
 sudo rm -rf services/*-data
 rm -rf services/dets
