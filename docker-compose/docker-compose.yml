@@ -30,11 +30,10 @@ services:
       context: ..
       dockerfile: ./docker/Dockerfile
       args:
-        RELEASE_VERSION: 6.10.1
+        RELEASE_VERSION: 8.0.1
     links:
       - db:database
     
-
   # nft_media_handler:
   #   depends_on:
   #     - backend
@@ -45,7 +44,7 @@ services:
   #     context: ..
   #     dockerfile: ./docker/Dockerfile
   #     args:
-  #       RELEASE_VERSION: 6.10.1
+  #       RELEASE_VERSION: 8.0.1
 
   visualizer:
     extends:

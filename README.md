@@ -5,7 +5,6 @@
 The upstream code is located here: [Blockscout](https://github.com/blockscout/blockscout)
 </div>
 
-
 ## License
 
 [![License: GPL v3.0](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)

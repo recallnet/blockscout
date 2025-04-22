@@ -1,6 +1,6 @@
 services:
   backend:
-    image: blockscout/${DOCKER_REPO:-blockscout}:${DOCKER_TAG:-latest}
+    image: ghcr.io/blockscout/${DOCKER_REPO:-blockscout}:${DOCKER_TAG:-latest}
     pull_policy: always
     restart: always
     stop_grace_period: 5m
@@ -13,6 +13,7 @@ services:
     environment:
       - ETHEREUM_JSONRPC_HTTP_URL=${ETHEREUM_JSONRPC_HTTP_URL}
       - ETHEREUM_JSONRPC_TRACE_URL=${ETHEREUM_JSONRPC_TRACE_URL}
+      - ETHEREUM_JSONRPC_VARIANT=${ETHEREUM_JSONRPC_VARIANT}
       - ETHEREUM_JSONRPC_WS_URL=${ETHEREUM_JSONRPC_WS_URL}
       - ETHEREUM_JSONRPC_FALLBACK_HTTP_URL=${ETHEREUM_JSONRPC_FALLBACK_HTTP_URL}
       - INDEXER_CATCHUP_BLOCKS_CONCURRENCY=1
